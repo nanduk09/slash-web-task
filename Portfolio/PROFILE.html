@@ -3,124 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Nanda Kishore | Portfolio</title>
     <link rel="stylesheet" href="nanda.css">
 </head>
 <body>
+
     <header>
         <nav>
             <div class="left">
-                <img src="logo.png" alt="">
+                <img src="logo.png" alt="Logo">
                 Nanda's Portfolio
             </div>
             <div class="right">
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Services</a></li>
-                    <li><a href="/">Projects</a></li>
-                    <li><a href="/">Contact me</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
     <main>
-        <section class="firstSection">
+
+        <!-- HERO SECTION -->
+        <section id="home" class="firstSection">
             <div class="leftSection">
-                Hi, My name is <span class="purple">Nanda Kishore</span> and
-                <div>I am a  passionate</div>
+                Hi, I'm <span class="purple">Nanda Kishore</span>
+                <div>A passionate</div>
                 <span id="element"></span>
+
                 <div class="btn">
-                    <button class="button">Download Resume</button>
-                    <button class="button">Visit Github</button>
+                    <a href="resume.pdf" download>
+                        <button class="button">Download Resume</button>
+                    </a>
+                    <a href="https://github.com/nanduk09" target="_blank">
+                        <button class="button">Visit GitHub</button>
+                    </a>
                 </div>
             </div>
+
             <div class="rightSection">
-                <img src="nanda.jpg" alt="building">
+                <img src="nanda.jpg" alt="Nanda Image">
             </div>
         </section>
+
         <hr>
 
-        <section class="thirdsection">
-            <h1>About me</h1>
-            <p>I am a developer and as a web developer, I am dedicated to creating and maintaining websites and web applications. I possess a deep understanding of web technologies such as HTML, CSS, JavaScript, and various frameworks and libraries like React, Angular, or Vue.js. I am adept at both front-end and back-end development, often working with server-side languages like Node.js, Python, or PHP, and databases such as MySQL or MongoDB. My role involves not only writing clean, efficient code but also ensuring a seamless user experience through responsive design, accessibility standards, and performance optimization. Passionate about continuous learning, I stay updated with the latest trends and technologies to deliver innovative and dynamic web solutions.</p>
+        <!-- ABOUT SECTION -->
+        <section id="about" class="thirdsection">
+            <h1>About Me</h1>
+            <p>
+                I am a passionate developer specializing in building intelligent web applications.
+                I have developed a Machine Learning based Crop Recommendation System integrated 
+                with Weather API using Flask. I enjoy solving real-world problems using AI, 
+                full-stack development, and scalable backend systems.
+            </p>
         </section>
+
         <hr>
-        <section class="secondSection">
-            <h1>My Work Experience</h1>
-            <div class="horizontal-bar">
-                <div class="vertical-bar">
-                    <img src="html-removebg-preview.png" alt="">
-                    <div class="text">HTML Developer</div>
-                    <div class="desc">Passionate HTML developer with a knack for creating visually appealing and user-friendly web pages, Experienced in writing clean, efficient, and semantic HTML code that enhances web accessibility and SEO.</div>
-                </div>
-                <div class="vertical-bar">
-                    <img src="css-removebg-preview.png" alt="">
-                    <div class="text">CSS Developer</div>
-                    <div class="desc">Creative CSS developer skilled in transforming designs into pixel-perfect, responsive web pages, Experienced in using CSS Grid and Flexbox to create complex, adaptive layouts that work seamlessly across devices.</div>
-                </div>
-                <div class="vertical-bar">
-                    <img src="js-removebg-preview.png" alt="">
-                    <div class="text">JavaScript Developer</div>
-                    <div class="desc">Proficient JavaScript developer with a strong background in building dynamic and interactive web applications, Experienced in utilizing popular frameworks and libraries such as React, Vue, and Angular for robust front-end development.</div>
-                </div>
-                <div class="vertical-bar">
-                    <img src="C_Logo.png" alt="">
-                    <div class="text">C Programmer</div>
-                    <div class="desc">Experienced C programmer with a deep understanding of low-level programming and system-level development, Skilled in debugging and profiling C programs to ensure robustness, reliability, and high performance.</div>
-                </div>
-                <div class="vertical-bar">
-                    <img src="ISO_C++_Logo.svg.png" alt="">
-                    <div class="text">DSA - with C++</div>
-                    <div class="desc">Skilled C++ developer with extensive experience in implementing and optimizing data structures and algorithms for efficient problem-solving, Experienced in solving competitive programming challenges and real-world problems using a wide range of data structures and algorithms.</div>
-                </div>
+
+        <!-- EXPERIENCE SECTION -->
+        <section id="experience" class="secondSection">
+    <h1>AI & Full Stack Capabilities</h1>
+
+    <div class="horizontal-bar">
+
+        <div class="vertical-bar">
+            <img src="html-removebg-preview.png" alt="">
+            <div class="text">AI-Based Solutions</div>
+            <div class="desc">
+                Designed and deployed a Machine Learning Crop Recommendation 
+                System using supervised learning models and real-world datasets.
             </div>
+        </div>
+
+        <div class="vertical-bar">
+            <img src="js-removebg-preview.png" alt="">
+            <div class="text">Flask Backend Development</div>
+            <div class="desc">
+                Built full-stack applications with authentication systems, 
+                session management, and dynamic user interaction.
+            </div>
+        </div>
+
+        <div class="vertical-bar">
+            <img src="C_Logo.png" alt="">
+            <div class="text">Weather API Integration</div>
+            <div class="desc">
+                Integrated real-time weather APIs to automate environmental 
+                data input for intelligent agricultural predictions.
+            </div>
+        </div>
+
+        <div class="vertical-bar">
+            <img src="ISO_C++_Logo.svg.png" alt="">
+            <div class="text">Data Structures & Problem Solving</div>
+            <div class="desc">
+                Strong foundation in C++ and algorithmic thinking 
+                for optimized and scalable solutions.
+            </div>
+        </div>
+
+    </div>
+</section>
+        <hr>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects" class="thirdsection">
+            <h1>My Projects</h1>
+
+            <div class="project-card">
+                <h3>AI Crop Recommendation System</h3>
+                <p>
+                    Machine Learning model that predicts optimal crops based on soil nutrients and weather conditions.
+                    Integrated with Flask backend and Weather API.
+                </p>
+                <a href="https://github.com/nanduk09" target="_blank">
+                    <button class="button">View Project</button>
+                </a>
+            </div>
+
         </section>
+
     </main>
 
-    <footer>
+    <!-- FOOTER -->
+    <footer id="contact">
         <div class="flex">
             <div class="footer-first">
-                <h3>Contact me on 9391522452</h3>
-                <h4>email : nandakishoreginjupalli9@gmail.com</h4>
-            </div>
-            <div class="footer-second  list">
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Services</a></li>
-                    <li><a href="/">Contact</a></li>
-                </ul>
-            </div>
-            <div class="footer-third list">
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Services</a></li>
-                    <li><a href="/">Contact</a></li>
-                </ul>
-            </div>
-            <div class="footer-fourth list">
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Services</a></li>
-                    <li><a href="/">Contact</a></li>
-                </ul>
+                <h3>Contact Me</h3>
+                <h4>Email: g.nanduk09@gmail.com</h4>
+                <h4>Phone: 9391522452</h4>
             </div>
         </div>
+
         <div class="copy">
-            Copyright &#169; nandaportfolio | All rights are reserved
+            Copyright &#169; 2026 Nanda Kishore | All rights reserved
         </div>
     </footer>
-    
+
+    <!-- Typed JS -->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed('#element', {
-    strings: ['Web Developer', 'Graphic Designer', 'Video Editor', 'Programmer'],
-    typeSpeed: 50,
-  });
-    </script>
+    <script src="script.js"></script>
+
 </body>
 </html>
