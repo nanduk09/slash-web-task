@@ -1,0 +1,239 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(2, 2, 36);
+    color: white;
+    font-weight: 700;
+}
+
+.left{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.left img{
+    width: 50px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgba(4, 2, 23,1);
+}
+
+.right ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 0 23px;
+}
+
+.right ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.right ul li a:hover{
+    color: rgb(185, 215, 240);
+    font-size: 1.06rem;
+}
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.firstSection > div{
+    width: 30%;
+}
+
+.leftSection{
+    font-size: 2.6rem;
+}
+.rightSection img{
+    width: 50%;
+    border-radius: 10px;
+    /* opacity: 0.7; */
+}
+
+.purple{
+    color: rgb(183, 132, 249);
+}
+#element{
+    color: rgb(161, 105, 245);
+}
+
+.button{
+    padding: 10px;
+    background-color: rgb(15, 6, 78);
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+hr{
+    border: 0;
+    height: 2px;
+    background: rgb(36, 36, 116);
+    margin: 10px 125px;
+}
+
+.thirdsection{
+    width: 80vw;
+    margin: auto;
+}
+
+.thirdsection h1{
+    color: rgb(19, 141, 216);
+    padding: 8px;
+    font-size: 3rem;
+}
+
+.thirdsection p{
+    color: rgb(139, 163, 178);
+    padding: 12px;
+    padding-bottom: 22px;
+    font-size: 1rem;
+}
+
+.secondSection{
+    width: 80vw;
+    margin: auto;
+    padding: 70px 0;
+    height: 400px;
+}
+
+.secondSection h1{
+    font-size: 3rem;
+    color: aqua;
+}
+
+.horizontal-bar{
+    width: 1010px;
+    height: 2px;
+    background-color: yellowgreen;
+    margin: 40px 20px;
+    display: flex;
+}
+
+.vertical-bar{
+    width: 1px;
+    height: 80px;
+    background-color: yellowgreen;
+    margin: 0px 100px;
+}
+
+.vertical-bar img{
+    width: 30px;
+    height: auto;
+    position: relative;
+    top: -22px;
+    left: -14px;
+}
+
+.text{
+    position: relative;
+    top: 57px;
+    width: 150px;
+    font-size: 14px;
+}
+
+.desc{
+    position: relative;
+    margin-top: 10px;
+    top: 57px;
+    width: 100px;
+    font-size: 9px;
+    color: gray;
+}
+
+footer{
+    height: 150px;
+    background-color: rgb(19, 12, 52);
+    margin: auto;
+}
+footer :nth-child(1){
+    color: grey;
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.list li{
+    list-style: none;
+}
+
+.list li a{
+    text-decoration: none;
+    color: rgb(154, 149, 149);
+}
+
+.copy{
+    color: grey;
+    text-align: center;
+}
+
+@media screen and (max-width: 1240px) {
+    body{
+        height: 100%;
+    }
+    nav{
+        width: 1250px;
+    }
+    .firstSection{
+        width: 1250px;
+        
+    }
+    .thirdsection{
+        width: 1150px;
+        text-align: justify;
+        padding: 40px;
+    }
+    footer{
+        width: 1250px;
+        margin-top: 70px;
+    }
+    .horizontal-bar{
+        width: 1010px;
+        height: 2px;
+        background-color: yellowgreen;
+        margin: 40px 20px;
+        display: flex;
+    }
+    .desc{
+        margin-top: 10px;
+        width: 130px;
+    }
+    .secondSection h1{
+        width: 400px;
+    }
+    hr{
+        width: 1100px;
+        margin: auto;
+        margin-left: 40px;
+    }
+    
+}
