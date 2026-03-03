@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Main container - centered layout */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* Vertical center */
+  align-items: center;       /* Horizontal center */
+  text-align: center;
+  width: 100%;
+  transition: background 0.8s ease;
+}
+
+/* Heading */
+h1 {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+/* Search section */
+.search-container {
+  margin-bottom: 20px;
+}
+
+/* Input field */
+input {
+  padding: 12px;
+  width: 250px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+/* Buttons */
+button {
+  padding: 12px 15px;
+  margin: 8px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+/* Search button */
+button:first-of-type {
+  background: #00c6ff;
+  color: white;
+}
+
+/* Location button */
+button:last-of-type {
+  background: #ff512f;
+  color: white;
+}
+
+/* Weather Card */
+.weather-card {
+  margin-top: 30px;
+  padding: 30px;
+  width: 350px;
+  border-radius: 15px;
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  transition: 0.3s ease;
+}
+
+.weather-card:hover {
+  transform: scale(1.03);
+}
+
+.weather-card h2 {
+  margin-bottom: 15px;
+}
+
+.weather-card p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+/* Weather icon */
+.weather-card img {
+  width: 100px;
+}
+
+/* Loading animation */
+.loading {
+  margin-top: 20px;
+  font-size: 18px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0.5;
+  }
+}
